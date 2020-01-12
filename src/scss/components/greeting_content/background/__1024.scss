@@ -1,5 +1,5 @@
 .bcg {
-    background: url('./../../../../img/background/bcg_furnit_1583x687.png'), #e2e2e2;
+    background: url('../img/background/bcg_furnit_1583x687.png'), #e2e2e2;
     width: 100%;
     max-width: 2560px;
     height: 688px;
@@ -27,7 +27,7 @@
 }
 
 .wide-bcg__bottom-wave {
-    background: url('./../../../../img/background/bcg_wave-transition_2559x173.png');
+    background: url('../img/background/bcg_wave-transition_2559x173.png');
     width: 100%;
     height: 173px;
     background-repeat: repeat-x;
@@ -151,22 +151,18 @@
 
 .banner-content__center__adv-txt--middle::after {
     content: "1";
-
     left: -55px;
     top: 21px;
-
 }
 
 .banner-content__center__adv-txt--bottom::after {
     content: "2";
-
     left: -55px;
     top: 21px;
-
 }
 
 .banner-content__center__bcg {
-    background: url('../../../../img/background/bcg_arrow_9x146.png');
+    background: url('../img/background/bcg_arrow_9x146.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,7 +177,7 @@
     width: 570px;
     height: 570px;
     border-radius: 50%;
-    background: url('./../../../../img/background/bcg_circle_571x572.png');
+    background: url('../img/background/bcg_circle_571x572.png');
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,7 +206,7 @@
 }
 
 .bcg-banner__extra-bcg {
-    background: url('./../../../../img/background/bcg__feet_747x579.png');
+    background: url('../img/background/bcg__feet_747x579.png');
     width: 736px;
     height: 578px;
     background-repeat: no-repeat;
@@ -223,7 +219,7 @@
 }
 
 .bcg-banner__extra-bcg__ban {
-    background: url('./../../../../img/banner/banner-mikocin_698x395.png');
+    background: url('../img/banner/banner-mikocin_698x395.png');
     width: 700px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,11 +238,9 @@
     padding: 1px 8px;
     color: #fff;
     border-radius: 10px;
-
     display: block;
     width: 100px;
     height: 40px;
-
     line-height: 40px;
     text-align: left;
     font-size: 34px;
@@ -256,7 +250,6 @@
     top: -10px;
     left: 337px;
     background-color: $primaryOrangeClr;
-
 }
 
 .bcg-banner__extra-bcg__ban__price--smallpack {
