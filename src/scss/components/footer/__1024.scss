@@ -78,6 +78,17 @@
     vertical-align: top;
     width: 300px;
     font-family: $primaryFont;
+    position: relative;
+}
+
+.footer-section__descr__wrapper__txt::before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    background-color: $primaryGreenClr;
+    top: 20px;
 }
 
 .footer-section__bcg {
