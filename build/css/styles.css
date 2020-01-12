@@ -946,7 +946,7 @@ a {
 .section-icon {
   display: block;
   margin: 0 auto;
-  background: url("../../../img/logo/logo_81x56.png");
+  background: url("../img/logo/logo_81x56.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1013,7 +1013,7 @@ a {
 }
 
 .about-disease__columns__column__img--back {
-  background: url("../../../img/dis/dis_back_170x170.png");
+  background: url("../img/dis/dis_back_170x170.png");
 }
 
 .about-disease__columns__column__img--back::before {
@@ -1028,7 +1028,7 @@ a {
 }
 
 .about-disease__columns__column__img--nail {
-  background: url("../../../img/dis/dis_nail_170x170.png");
+  background: url("../img/dis/dis_nail_170x170.png");
 }
 
 .about-disease__columns__column__img--nail::before {
@@ -1043,7 +1043,7 @@ a {
 }
 
 .about-disease__columns__column__img--person {
-  background: url("../../../img/dis/dis_person_170x170.png");
+  background: url("../img/dis/dis_person_170x170.png");
 }
 
 .about-disease__columns__column__img--person::before {
@@ -1131,7 +1131,7 @@ a {
 }
 
 .about-disease__footer::before {
-  background: url("../../../img/dis/dis_icon_static_55x37.png"), #fff;
+  background: url("../img/dis/dis_icon_static_55x37.png"), #fff;
   display: block;
   background-position: center;
   background-repeat: no-repeat;
