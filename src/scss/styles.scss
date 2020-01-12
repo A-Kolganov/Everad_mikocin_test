@@ -1,0 +1,19 @@
+// Import helpers && mixin && variables
+
+@import './reset.scss';
+@import './fonts.scss';
+@import './helpers/variables.scss';
+@import './helpers/container.scss';
+
+
+
+
+// COMPONENTS //
+
+@import './components/greeting_content/header/header.scss';
+@import './components/greeting_content/background/index.scss';
+@import './components/form/form.scss';
+@import './components/disease/index.scss';
+@import './components/therapy/index.scss';
+@import './components/mikocin_section/index.scss';
+@import './components/footer/index.scss';

@@ -1,0 +1,281 @@
+.bcg {
+    background: url('./../../../../img/background/bcg_furnit_1583x687.png'), #e2e2e2;
+    width: 100%;
+    max-width: 2560px;
+    height: 688px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bcg__blue-cover-eff {
+    width: 100%;
+    max-width: 2560px;
+    height: 688px;
+    max-height: 688px;
+    position: absolute;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(243, 249, 255, 0)), color-stop(50%, rgba(243, 249, 255, 1)));
+    background: -o-linear-gradient(left, rgba(243, 249, 255, 0) 0%, rgba(243, 249, 255, 1) 50%);
+    background: linear-gradient(90deg, rgba(243, 249, 255, 0) 0%, rgba(243, 249, 255, 1) 50%);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.wide-bcg__bottom-wave {
+    background: url('./../../../../img/background/bcg_wave-transition_2559x173.png');
+    width: 100%;
+    height: 173px;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: -150px;
+    z-index: 1;
+}
+
+.banner-content--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1240px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.banner-content__left-side {
+    position: relative;
+    width: 506px;
+}
+
+.banner-content__center {
+    width: 430px;
+    height: 100px;
+    position: relative;
+}
+
+.banner-content__center__title {
+    font-family: $primaryFont;
+    font-weight: 900;
+    font-size: 30px;
+    color: $fontColor;
+    font-size: 45px;
+    padding: 24px;
+    position: relative;
+}
+
+.banner-content__center__title>span {
+    font-weight: 700;
+    font-size: 34px;
+    position: relative;
+    bottom: 9px;
+    left: 3px;
+}
+
+.banner-content__center__title>span::before {
+    content: '';
+    display: block;
+    width: 125px;
+    height: 4px;
+    background-color: $primaryOrangeClr;
+    position: absolute;
+    left: -247px;
+    top: 80px;
+}
+
+.banner-content__center__title>span::after {
+    content: '';
+    display: block;
+    width: 130px;
+    height: 4px;
+    background-color: $primaryGreenClr;
+    position: absolute;
+    left: -77px;
+    top: 80px;
+}
+
+.banner-content__center__adv-txt {
+    position: relative;
+    width: 330px;
+    height: 80px;
+    font-size: 20px;
+    margin: 8px 0 26px 108px;
+    line-height: 24px;
+    font-family: $primaryFont;
+    font-style: normal;
+    font-weight: 400;
+    color: $secondFontClr;
+}
+
+.banner-content__center__adv-txt>span {
+    font-weight: 500;
+    color: #000;
+}
+
+.banner-content__center__adv-txt--top::before,
+.banner-content__center__adv-txt--middle::before,
+.banner-content__center__adv-txt--bottom::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -73px;
+    top: 9px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #e8edc9;
+    background-color: $primaryGreenClr;
+}
+
+.banner-content__center__adv-txt--top::after,
+.banner-content__center__adv-txt--middle::after,
+.banner-content__center__adv-txt--bottom::after {
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    font-family: $primaryFont;
+    color: #fff;
+}
+
+.banner-content__center__adv-txt--top::after {
+    content: "2в1";
+    left: -65px;
+    top: 20px;
+}
+
+.banner-content__center__adv-txt--middle::after {
+    content: "1";
+
+    left: -55px;
+    top: 21px;
+
+}
+
+.banner-content__center__adv-txt--bottom::after {
+    content: "2";
+
+    left: -55px;
+    top: 21px;
+
+}
+
+.banner-content__center__bcg {
+    background: url('../../../../img/background/bcg_arrow_9x146.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 9px;
+    height: 146px;
+    position: absolute;
+    left: 56px;
+    top: 307px;
+}
+
+.bcg-banner {
+    width: 570px;
+    height: 570px;
+    border-radius: 50%;
+    background: url('./../../../../img/background/bcg_circle_571x572.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 69px;
+    left: -61px;
+}
+
+.bcg-banner::before {
+    display: block;
+    content: " ";
+    width: 680px;
+    height: 680px;
+    position: absolute;
+    z-index: 7;
+    border-radius: 50%;
+    border-top: #fff 30px solid;
+    border-left: #fff 30px solid;
+    border-bottom: transparent 30px solid;
+    border-right: transparent 30px solid;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-10deg);
+    -ms-transform: translate(-50%, -50%) rotate(-10deg);
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.bcg-banner__extra-bcg {
+    background: url('./../../../../img/background/bcg__feet_747x579.png');
+    width: 736px;
+    height: 578px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: -13px;
+    bottom: 153px;
+    z-index: 11;
+}
+
+.bcg-banner__extra-bcg__ban {
+    background: url('./../../../../img/banner/banner-mikocin_698x395.png');
+    width: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-position: 0 0;
+    position: absolute;
+    left: 6px;
+    top: 325px;
+    z-index: 15;
+}
+
+.bcg-banner__extra-bcg__ban__price {
+    position: absolute;
+    font-family: $primaryFont;
+    font-weight: 900;
+    padding: 1px 8px;
+    color: #fff;
+    border-radius: 10px;
+
+    display: block;
+    width: 100px;
+    height: 40px;
+
+    line-height: 40px;
+    text-align: left;
+    font-size: 34px;
+}
+
+.bcg-banner__extra-bcg__ban__price--bigpack {
+    top: -10px;
+    left: 337px;
+    background-color: $primaryOrangeClr;
+
+}
+
+.bcg-banner__extra-bcg__ban__price--smallpack {
+    top: 120px;
+    left: 440px;
+    background-color: $primaryGreenClr;
+}
+
+.bcg-banner__extra-bcg__ban__price::after {
+    display: block;
+    content: "\20BD";
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 67px;
+    top: -40px;
+}
+
+.banner-content__right-side {
+    width: 305px;
+    height: 100px;
+}

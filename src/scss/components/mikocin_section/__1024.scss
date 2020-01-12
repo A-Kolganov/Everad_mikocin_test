@@ -1,0 +1,152 @@
+.wide-bcg__bottom-wave--about-mikocin {
+    top: -70px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.about-mikocin {
+    position: relative;
+    margin-top: 42px;
+}
+
+.section-icon {
+    position: relative;
+    z-index: 10;
+}
+
+.about-mikocin>.container>.section-title {
+    position: relative;
+    z-index: 10;
+    padding: 14px;
+}
+
+.about-mikocin>.container>.section-title>span {
+    color: $primaryOrangeClr;
+}
+
+.about-mikocin>.container>.section-subtitle {
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.about-mikocin__column__icon {
+    position: absolute;
+    left: 50%;
+    top: -58px;
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 105px;
+    height: 105px;
+
+    z-index: 10;
+}
+
+.about-mikocin__column__icon--pills {
+    background: url('../../../img/mikocin_sect/mik-sec_pills_105x65.png'), #fff;
+    border-bottom: 3px solid #f64d01;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.about-mikocin__column__icon--oil {
+    background: url('../../../img/mikocin_sect/mik-sec_oil_160x105.png'), #fff;
+    border-bottom: 3px solid #f64d01;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.about-mikocin__column__icon--mik {
+    background: url('../../../img/mikocin_sect/mik-sec_mik_80x56.png'), #fff;
+    border-bottom: 3px solid #62bd1f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.about-mikocin__column {
+    display: block;
+    width: 367px;
+    border: 3px solid #f64d01;
+    border-radius: 10px;
+    margin: 84px 16px 20px;
+    position: relative;
+}
+
+.about-mikocin__column:last-child {
+    border: 3px solid #62bd1f;
+}
+
+.about-mikocin__column__title {
+    text-align: center;
+    font-family: $primaryFont;
+    font-weight: 700;
+    color: $fontColor;
+    font-size: 24px;
+    margin-top: 76px;
+}
+
+.about-mikocin__column__txt {
+    text-align: center;
+    font-family: $primaryFont;
+    font-weight: 400;
+    color: $secondFontClr;
+    font-size: 20px;
+    padding: 15px 10px 9px;
+    line-height: 25px;
+}
+
+.about-mikocin__column__txt>span {
+    font-weight: 600;
+}
+
+.about-mikocin__footer {
+    background: -webkit-gradient(linear, left top, right top, from(#f64d01), to(#62bd1f));
+    background: -o-linear-gradient(left, #f64d01, #62bd1f);
+    background: linear-gradient(to right, #f64d01, #62bd1f);
+    width: 870px;
+    height: 98px;
+    border-radius: 15px;
+    margin: 8px auto;
+    padding: 3px;
+    position: relative;
+    z-index: 20;
+}
+
+.about-mikocin__footer__msg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 864px;
+    height: 92px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: $primaryFont;
+    font-weight: 600;
+    color: $secondFontClr;
+    text-align: center;
+    line-height: 95px;
+    font-size: 27px;
+}
+
+.about-mikocin__footer__msg>span {
+    color: $primaryOrangeClr;
+}
+
+.wide-bcg__bottom-wave--about-mikocin--down {
+    bottom: -72px;
+    z-index: 1;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

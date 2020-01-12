@@ -1,0 +1,92 @@
+.footer-section {
+    width: 100%;
+    background-color: #f1f9f9;
+    height: auto;
+    padding-top: 105px;
+    padding-bottom: 30px;
+}
+
+.section-title>span {
+    color: $primaryOrangeClr;
+}
+
+.footer-section__bcg {
+    width: 600px;
+    height: auto;
+}
+
+.footer-section__descr {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.footer-section__descr__wrapper {
+    height: 151px;
+    padding: 20px 0 0 31px
+}
+
+.footer-section__descr__wrapper__img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px #f64d01 solid;
+    position: relative;
+}
+
+.footer-section__descr__wrapper__img::before {
+    display: block;
+    content: '';
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid #eee4da;
+
+}
+
+.footer-section__descr__wrapper__img--pills {
+    background: url('../../../img/footer/footer-icon_pills_61x61.png'), #fff;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.footer-section__descr__wrapper__img--cup {
+    background: url('../../../img/footer/footer-icon_cup_61x61.png'), #fff;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.footer-section__descr__wrapper__img--calendar {
+    background: url('../../../img/footer/footer-icon_calendar_60x60.png'), #fff;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.footer-section__descr__wrapper__txt {
+    display: inline-block;
+    font-size: 18px;
+    padding: 32px 0 0 42px;
+    vertical-align: top;
+    width: 300px;
+    font-family: $primaryFont;
+}
+
+.footer-section__bcg {
+    background: url('../../../img/footer/bcg_mikocin_cup_439x407.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 439px;
+    height: 407px;
+    margin: 85px 0 0 163px;
+}

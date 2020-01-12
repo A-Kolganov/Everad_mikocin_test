@@ -1,0 +1,239 @@
+.section-set {
+    margin-top: 183px;
+    position: relative;
+
+}
+
+.section-icon {
+    display: block;
+    margin: 0 auto;
+    background: url('../../../img/logo/logo_81x56.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 81px;
+    height: 56px;
+}
+
+.section-title {
+    font-family: $primaryFont;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-subtitle {
+    font-family: $primaryFont;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.columns-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.about-disease__columns {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.about-disease__columns__column {
+    width: 400px;
+
+}
+
+.about-disease__columns__column__title {
+    display: inline-block;
+    vertical-align: middle;
+    word-wrap: normal;
+    width: 190px;
+    height: 100px;
+    font-size: 22px;
+    padding: 0 20px;
+    font-family: $primaryFont;
+    font-weight: 700;
+    position: relative;
+    bottom: 59px;
+}
+
+.about-disease__columns__column__img {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 26px 0 0 34px;
+    position: relative;
+}
+
+.about-disease__columns__column__img--back {
+    background: url('../../../img/dis/dis_back_170x170.png');
+}
+
+.about-disease__columns__column__img--back::before {
+    border-top: 11px solid #ec9a6a;
+    border-left: 11px solid #ec9a6a;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+
+.about-disease__columns__column__img--back::after {
+    background-color: #ec9a6a;
+}
+
+.about-disease__columns__column__img--nail {
+    background: url('../../../img/dis/dis_nail_170x170.png');
+}
+
+.about-disease__columns__column__img--nail::before {
+    border-top: 11px solid #e47643;
+    border-left: 11px solid #e47643;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+
+.about-disease__columns__column__img--nail::after {
+    background-color: #e47643;
+}
+
+.about-disease__columns__column__img--person {
+    background: url('../../../img/dis/dis_person_170x170.png');
+}
+
+.about-disease__columns__column__img--person::before {
+    border-top: 11px solid #ec5b19;
+    border-left: 11px solid #ec5b19;
+    border-bottom: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+
+.about-disease__columns__column__img--person::after {
+    background-color: #ec5b19;
+}
+
+.about-disease__columns__column__img::before {
+    content: '';
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(11deg);
+    -ms-transform: translate(-50%, -50%) rotate(11deg);
+    transform: translate(-50%, -50%) rotate(11deg);
+}
+
+.about-disease__columns__column__img::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 121px;
+    top: -9px;
+
+
+}
+
+.about-disease__columns__column__img--num {
+    position: absolute;
+    font-family: $primaryFont;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    left: 138px;
+    top: 1px;
+    z-index: 10;
+
+}
+
+.about-disease__columns__column__txt {
+    display: block;
+    text-align: left;
+    color: $secondFontClr;
+    font-family: $primaryFont;
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+    padding: 3px 52px 3px 35px;
+    line-height: 27px;
+    position: relative;
+}
+
+.about-disease__columns__column__txt::before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 47px;
+    height: 2px;
+    background-color: #becbd8;
+    left: 36px;
+    top: -14px;
+}
+
+.conclusion-footer {
+    width: 1170px;
+    color: #444;
+    font-family: Roboto;
+    font-weight: 400;
+    border: 2px solid #f4d3bb;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 70px auto 0;
+    position: relative;
+    z-index: 30;
+}
+
+.about-disease__footer::before {
+
+    background: url('../../../img/dis/dis_icon_static_55x37.png'), #fff;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    width: 169px;
+    height: 33px;
+    position: absolute;
+    left: 497px;
+    top: -17px;
+
+}
+
+.conclusion-footer>p {
+    padding: 44px;
+}
+
+.conclusion-footer>p>span {
+    font-weight: 600;
+}
+
+.wide-bcg__bottom-wave--about-disease {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    bottom: -145px;
+    z-index: 26;
+}

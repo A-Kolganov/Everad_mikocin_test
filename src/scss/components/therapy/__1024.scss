@@ -1,0 +1,138 @@
+.about-therapy {
+    background: -webkit-gradient(linear, left top, right top, from(#e9f5f7), color-stop(50%, #f8fdfe), to(#e9f5f7));
+    background: -o-linear-gradient(left, #e9f5f7 0%, #f8fdfe 50%, #e9f5f7 100%);
+    background: linear-gradient(to right, #e9f5f7 0%, #f8fdfe 50%, #e9f5f7 100%);
+    width: 100%;
+    display: block;
+    margin: 1px;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 90px;
+}
+
+.about-therapy__column {
+    width: 375px;
+    background-color: #fff;
+    display: block;
+    margin: 62px 12px 0;
+    border-radius: 15px;
+    border-top: green 3px solid;
+    border-right: transparent 10px solid;
+    border-left: transparent 10px solid;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: $primaryFont;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.about-therapy__column__icon {
+    position: absolute;
+    left: 50%;
+    top: -51px;
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #f8fdfe;
+}
+
+.about-therapy__column__icon--mirracle {
+    background: url('../../../img/therapy/icon_mir_70x66.png'), #f4fafd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.about-therapy__column__icon--cream {
+    background: url('../../../img/therapy/icon_cream_48x75.png'), #f8fdfe;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.about-therapy__column__icon--pills {
+    background: url('../../../img/therapy/icon_pills_59x63.png'), #f4fafd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.about-therapy__column__title {
+    font-weight: 700;
+    margin-top: 66px;
+    font-size: 24px;
+}
+
+.about-therapy__column__txt {
+    font-weight: 600;
+    width: 285px;
+    margin: 14px auto;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.about-therapy__column__txt>span {
+    font-weight: 400;
+
+}
+
+.about-therapy__column__sp {
+    font-weight: 900;
+    color: $primaryOrangeClr;
+    margin-top: 58px;
+    display: block;
+    font-size: 24px;
+}
+
+.about-therapy__column__article {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px auto;
+    width: 300px;
+    line-height: 25px;
+}
+
+.about-therapy__column__article>span {
+    font-weight: 600;
+}
+
+.about-therapy__footer {
+    margin: 61px auto 0;
+}
+
+.about-therapy__footer>p {
+    padding: 34px 44px;
+    line-height: 22px;
+}
+
+.about-therapy__footer::before {
+
+    background: url('../../../img/therapy/icon_warn_11x50.png'), #f8fdfe;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    width: 169px;
+    height: 33px;
+    position: absolute;
+    left: 497px;
+    top: -17px;
+
+}
+
+.about-therapy__footer::after {
+    display: block;
+    content: 'ВЫВОД:';
+    width: 169px;
+    height: 33px;
+    position: absolute;
+    left: 497px;
+    top: -12px;
+    font-family: $primaryFont;
+    font-weight: 600;
+}
